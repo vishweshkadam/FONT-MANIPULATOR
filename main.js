@@ -3,8 +3,7 @@ function setup(){
     video = createCapture(VIDEO)
     canvas.position(700, 140)
     video.position(100, 80)
- M
-
+ 
 posenet=ml5.poseNet(video, modelloaded);
 posenet.on("pose",gotpose)
  }
